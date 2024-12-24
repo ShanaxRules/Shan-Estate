@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/ZzZm1Ws/istockphoto-1393537665-612x612.jpg",
+        "estate_title": "Modern Apartment in Downtown",
+        "segment_name": "Luxury Apartment",
+        "description": "A spacious and stylish apartment located in the heart of the city, featuring modern amenities and stunning views.",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Downtown City Center",
+        "facilities": [
+            "Living Room",
+            "Swimming Pool",
+            "Kitchen"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co.com/VqpGDvg/pexels-photo-106399.jpg",
+        "estate_title": "Cozy Suburban Home",
+        "segment_name": "Family House",
+        "description": "A cozy and comfortable home located in a quiet suburban neighborhood, perfect for families.",
+        "price": "$300,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "Suburbia Lane, Greenfield",
+        "facilities": [
+            "Living Room",
+            "Garage",
+            "Kitchen",
+            "Garden"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co.com/JtDDcBD/istockphoto-506903162-612x612.jpg",
+        "estate_title": "Beachfront Villa",
+        "segment_name": "Vacation Property",
+        "description": "A luxurious villa with direct access to the beach, featuring a private pool and panoramic sea views.",
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "Ocean Drive, Bluewater Bay",
+        "facilities": [
+            "Living Room",
+            "Swimming Pool",
+            "Kitchen",
+            "Private Beach"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co.com/6WZH7sJ/01-Banner-0207c48b-5c4e-4adf-aff6-53a5b42786a4-1999x.jpg",
+        "estate_title": "Urban Studio Apartment",
+        "segment_name": "Studio Apartment",
+        "description": "A compact and modern studio apartment ideal for singles or young professionals.",
+        "price": "$1,200/month",
+        "status": "rent",
+        "area": "500 sq ft",
+        "location": "Central Avenue, Metro City",
+        "facilities": [
+            "Living Room",
+            "Kitchenette",
+            "Gym Access"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co.com/tYLJZdF/english-cottage.jpg",
+        "estate_title": "Country Cottage",
+        "segment_name": "Rural Retreat",
+        "description": "A charming cottage located in the countryside, offering peace and tranquility.",
+        "price": "$250,000",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "Willow Grove, Countryside",
+        "facilities": [
+            "Living Room",
+            "Kitchen",
+            "Garden",
+            "Fireplace"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co.com/QDwsjgt/18.jpg",
+        "estate_title": "Luxury Penthouse",
+        "segment_name": "Exclusive Living",
+        "description": "An exquisite penthouse with breathtaking city views and top-notch amenities.",
+        "price": "$3,500,000",
+        "status": "sale",
+        "area": "3000 sq ft",
+        "location": "Skyline Tower, Elite District",
+        "facilities": [
+            "Living Room",
+            "Swimming Pool",
+            "Kitchen",
+            "Home Theater"
+        ]
+    }
+   
+]

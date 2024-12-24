@@ -1,0 +1,43 @@
+[
+    {
+      "id" : 1,
+      "image": "https://i.ibb.co.com/D1yxKHg/istockphoto-1460836430-612x612.jpg",
+      "name": "John Doe",
+      "designation": "Software Engineer",
+      "rating": 5,
+      "review": "The service was exceptional! The agents were professional and helped me find the perfect home in no time. Highly recommend!"
+    },
+    {
+      "id" : 2,
+      "image": "https://i.ibb.co.com/DKrcMXN/0-B692-EB6-3887-4570-8-E78-4-CF10-B9-DA79-E-e1667568341238.webp",
+      "name": "Sarah Smith",
+      "designation": "Marketing Manager",
+      "rating": 4,
+      "review": "Great service overall! The process was smooth, and I was kept informed at every step. A bit pricey, but worth it."
+    },
+    {
+      "id" : 3,
+      "image": "https://i.ibb.co.com/r3n30Jh/images-20.jpg",
+      "name": "David Johnson",
+      "designation": "Freelance Writer",
+      "rating": 5,
+      "review": "Fantastic experience! The team was friendly and patient with all my queries. They met all my queries."
+    },
+    {
+      "id" : 4,
+      "image": "https://i.ibb.co.com/wyFYQps/istockphoto-1486674561-612x612.jpg",
+      "name": "Emily Brown",
+      "designation": "Graphic Designer",
+      "rating": 4,
+      "review": "The service was okay. Found a decent apartment, but communication could have been better. They took longer than expected."
+    },
+    {
+      "id" : 5,
+      "image": "https://i.ibb.co.com/b6D4YFk/5627378.jpg",
+      "name": "Michael Lee",
+      "designation": "Business Analyst",
+      "rating": 4,
+      "review": "Impressed with their professionalism and attention to detail. They made the home-buying process much easier for me."
+    }
+  ]
+  
