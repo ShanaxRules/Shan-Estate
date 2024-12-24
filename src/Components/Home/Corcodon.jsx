@@ -4,7 +4,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const Corcodon = () => {
     return (
 
-        <div className="flex flex-col md:flex-col lg:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-col lg:flex-row justify-between items-center mb-20">
 
             <div className="flex-1">
                 <DotLottieReact
