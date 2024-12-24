@@ -1,5 +1,7 @@
 import { CiLocationOn } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
+import 'animate.css';
+
 
 const Card = ({estate}) => {
 
@@ -7,7 +9,7 @@ const Card = ({estate}) => {
 
     const navigate = useNavigate();
     return (
-        <div>
+        <div className="animate__animated animate__fadeIn animate__delay-1s">
             <div className="card bg-base-100 w-full shadow-xl shadow-blue-100  p-5">
 
                 <div>

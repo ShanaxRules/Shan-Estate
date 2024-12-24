@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { updateProfile } from "firebase/auth";
 import useDocumentTitle from "../TitleChange/useTitleChange";
 
@@ -10,11 +10,15 @@ const Register = () => {
     useDocumentTitle('Shan Estate : Register');
 
     const { createUser, setUser, setLoading } = useContext(AuthContext);
+    const [error , setError] = useState('');
+    const [success , setSuccess] = useState('');
 
     const navigate = useNavigate();
 
     const handleRegister = e => {
         e.preventDefault();
+        setError('');
+        setSuccess('');
         const email = e.target.email.value;
         const password = e.target.password.value;
         const name = e.target.name.value;
@@ -33,13 +37,15 @@ const Register = () => {
                         e.target.reset();
                         navigate('/');
                         console.log("Registration successful, user profile updated.");
+                        setSuccess("Account created successfully");
+
                     })
                     .catch(error => {
-                        console.error("Error updating profile:", error);
+                        setError(error);
                     });
             })
             .catch(error => {
-                console.error("Error during registration:", error);
+                setError(error);
             })
             .finally(() => setLoading(false)); // Reset loading regardless of success or failure
     };
@@ -146,6 +152,12 @@ const Register = () => {
                         <Link to={'/login'} className="font-semibold text-indigo-600 hover:text-indigo-500">Login now</Link>
                     </p>
                 </div>
+                {
+                    error && <p className="text-red-500">{error}</p>
+                }
+                {
+                    success && <p className="text-green-500">{success}</p>
+                }
             </div>
 
 
