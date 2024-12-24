@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import './Header.css';
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import { AuthContext } from "./AuthProvider";
 
 const Header = () => {
