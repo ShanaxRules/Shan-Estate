@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import './header.css';
+import './Header.css';
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "./AuthProvider";
 
